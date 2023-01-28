@@ -24,7 +24,7 @@ function MenuForm({onFoodFormSubmit}){
             },
             body: JSON.stringify({
                 name: foodName,
-                image: foodImage ,
+                image: foodImage,
             }),
         })
         .then(res => res.json())
