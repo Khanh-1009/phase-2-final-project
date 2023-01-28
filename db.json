@@ -69,6 +69,16 @@
       "id": 14,
       "name": "Vegetables and Mushrooms Collection",
       "image": "https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/9/0/904_Rau_Nam_Tong_Hop_1_1.jpg"
+    },
+    {
+      "name": "Beef",
+      "image": "https://media.istockphoto.com/id/1334054372/vector/cute-sumo-eat-onigiri-cartoon-icon-illustration.jpg?s=612x612&w=0&k=20&c=tDrkNSzqhKBspw6226HToqwVCOl96CA8RNuQIEqbXqc=",
+      "id": 15
+    },
+    {
+      "name": "Tofu",
+      "image": "https://www.wandercooks.com/wp-content/uploads/2020/11/yudofu-japanese-hot-tofu-3-500x375.jpg",
+      "id": 16
     }
   ]
 }
