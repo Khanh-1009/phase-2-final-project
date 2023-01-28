@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 100;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,94 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  position: relative;
+  background-color: #e04b52;
+  border: none;
+  border-radius: 5px;
+  height: 3rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-self: center;
+}
+
+.buttonContainer {
+  text-align: center;
+  padding: 1rem;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  border: #e04b52 solid 1px;
+  color: #e04b52;
+}
+
+.card {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 20rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #e04b52;
+}
+
+.menu-card {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 20rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #e04b52;
+}
+
+.fb-avatar {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+
+.fb-collection {
+  margin: 2rem;
+}
+
+.container {
+  padding: 1rem;
+  width: stretch;
+  height: auto;
+  background: #fb9da2;
+}
+
+.submit {
+  position: relative;
+  background-color: #e04b52;
+  border: none;
+  border-radius: 5px;
+  height: 3rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-self: center;
+}
+
+.submit:hover {
+  background-color: whitesmoke;
+  border: #e04b52 solid 1px;
+  color: #e04b52;
+
+}
+.input-text {
+  border-radius: 2px;
+  height: 2rem;
+  width: 30%;
+  font-size: 18px;
+  font-family: monospace;
+  margin: 3px;
+  
 }
