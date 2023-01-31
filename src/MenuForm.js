@@ -24,13 +24,17 @@ function MenuForm({onFoodFormSubmit}){
             },
             body: JSON.stringify({
                 name: foodName,
-                image: foodImage,
+                image: foodImage === "" ? iconPhoto : foodImage,
             }),
         })
         .then(res => res.json())
-        .then(newFood => onFoodFormSubmit(newFood))
+        .then(newFood => {
+          onFoodFormSubmit(newFood)
+          setFoodName("")
+          setFoodImage("")
+        })
     }
-    // === "" ? iconPhoto : foodImage
+    
 
     return (
         <div className="container">

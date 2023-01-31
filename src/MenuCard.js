@@ -16,6 +16,7 @@ function MenuCard({name, image}) {
             className="fb-avatar"
         />
         <button className="order" onClick={handleClick}>Place Order</button>
+        <button>Not My Favorite</button>
         </div>
   );
 }
