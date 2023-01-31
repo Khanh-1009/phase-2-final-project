@@ -1,10 +1,10 @@
 import React from "react"
 import MenuCard from "./MenuCard";
 
-function Menu({foods}){
+function Menu({foods, onClickDeleteFood}){
     const foodList = foods.map((food) => {
         return (
-            <MenuCard key={food.id} name={food.name} image={food.image}/>
+            <MenuCard key={food.id} food={food} onClickDeleteFood={onClickDeleteFood}/>
         )
     })
 

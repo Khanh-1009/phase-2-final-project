@@ -24,6 +24,11 @@ function App() {
     setFoods([...foods, newFood])
   }
 
+  function handleClickDeleteFood(deleteFood){
+    const updatedFoodMenu = foods.filter((food) => food.id !== deleteFood.id)
+    setFoods(updatedFoodMenu)
+  }
+
   function handleClick(){
     setShowForm((showForm) => !showForm)
   }
@@ -36,7 +41,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/Menu">
-            <Menu foods={foods}/>
+            <Menu foods={foods} onClickDeleteFood={handleClickDeleteFood}/>
             {showForm ? <MenuForm onFoodFormSubmit={handleFoodSubmit}/> : null}
             <div className="buttonContainer">
             <button onClick={handleClick}>{showForm ? "I have enough. Thanks!" : "Create Your Own Favorite Dishes"}</button>
