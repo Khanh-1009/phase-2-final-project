@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 
 function MenuCard({food, onClickDeleteFood}) {
     const {name, image} = food
+    const [placeOrder, setPlaceOrder] = useState(false)
 
-    function handleClick(){
-        alert("Thanks for your order")
+    function handlePlaceOrderClick(){
+        setPlaceOrder((placeOrder) => !placeOrder)
     }
 
     function handleDeleteItem(){
@@ -24,7 +25,11 @@ function MenuCard({food, onClickDeleteFood}) {
             alt={name}
             className="fb-avatar"
         />
-        <button className="order" onClick={handleClick}>Place Order</button>
+        <button 
+        className={placeOrder ? "order" : ""} 
+        onClick={handlePlaceOrderClick}>
+            {placeOrder ? "Cancel Order" : "Place Order"}
+        </button>
         <button onClick={handleDeleteItem}>Not My Favorite</button>
         </div>
   );
