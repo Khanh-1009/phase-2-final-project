@@ -2,6 +2,10 @@ import React from 'react'
 
 
 function BeverageCard({name, image}) {
+
+    function handleClick(){
+        alert("Thanks for your order!")
+    }
     
     return (
         <div className="card">
@@ -11,7 +15,7 @@ function BeverageCard({name, image}) {
             alt={name}
             className="fb-avatar"
         />
-        <button className="drink-order">Place Order</button>
+        <button className="drink-order" onClick={handleClick}>Place Order</button>
         </div>
   );
 }
