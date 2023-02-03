@@ -12,5 +12,83 @@
 
 ## Introduction
 
+The idea of creating a restaurant app came to my mind quite early when I was taking the phase-2 course. React is really suitable for it, and I've enjoyed working on it so much. Have you ever wondered how food orders can be processed so quick without seeing waiters in the All You Can Eat restaurants? All we need to do is order your dishes through an ipad that is installed on your table. Your orders will be received in a second and delivered to your table in less than 5 minutes. 
 
+In order to create this project, I truly appreciate the Sumo BBQ restaurant in Ho Chi Minh city, Vietnam and Q-Pot BBQ & Hot pot restaurant in San Jose, USA. I have understood more about Food & Beverage industry and had good ideas from it. Their websites also provide me beatiful photos, and there are more nice photos that I used for my project, which are from other websites below.
 
+![Screenshot Final](https://static.vecteezy.com/system/resources/thumbnails/003/224/532/small/cute-sumo-mascot-character-cartoon-icon-illustration-free-vector.jpg)
+
+![Screenshot Final](https://media.istockphoto.com/id/1334054372/vector/cute-sumo-eat-onigiri-cartoon-icon-illustration.jpg?s=612x612&w=0&k=20&c=tDrkNSzqhKBspw6226HToqwVCOl96CA8RNuQIEqbXqc=)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/3/3/330_Suon_Non_Bo_My_Co_Xuong_Sot_Tare_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/1/5/15641_Suon_Bo_My_Hao_Hang_Rut_Xuong_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/8/9/899_Than_Vai_Bo_My_Cat_Lat_Sot_Tare_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/3/0/306_De_Suon_Bo_My_Tsubo_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/8/9/897_Ba_Chi_Bo_My_Sot_Miso_Cay_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/1/8/181_Than_Bo_My_Hao_Hang_Sot_BBQ_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/8/9/898_Luoi_Bo_My_Sot_Tare_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/9/0/902_Loi_Vai_Heo_My_Steak_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/3/1/315_Suon_Heo_My_Sot_Basil_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/8/7/876_Ba_Chi_Heo_My_Sot_Miso_Cay_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/9/0/901_Dui_Ga_Khong_Xuong_Sot_Miso_Cay_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/1/0/1034_Tom_Su_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/1/8/184_Bach_Tuoc_Baby_Sot_Shio_Goma_1_1.jpg)
+
+![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/9/0/904_Rau_Nam_Tong_Hop_1_1.jpg)
+
+![Screenshot Final](https://target.scene7.com/is/image/Target/GUEST_7819ee30-1f78-46ee-a21c-d2096f99ba42?wid=325&hei=325&qlt=80&fmt=pjpeg)
+
+![Screenshot Final](https://target.scene7.com/is/image/Target/GUEST_df0ed645-55ba-440c-a765-e702bc9ebb01?wid=488&hei=488&fmt=pjpeg)
+
+![Screenshot Final](https://target.scene7.com/is/image/Target/GUEST_4f2bf9ec-55c4-4a9e-bf0d-61ebc5c9c110?wid=488&hei=488&fmt=pjpeg)
+
+![Screenshot Final](https://target.scene7.com/is/image/Target/GUEST_65db2c37-f185-4eb3-9013-c96bd3c96b3b?wid=488&hei=488&fmt=pjpeg)
+
+![Screenshot Final](https://target.scene7.com/is/image/Target/GUEST_fd80072d-e981-47e9-96ec-0bb4f7eadfd9?wid=325&hei=325&qlt=80&fmt=pjpeg)
+
+![Screenshot Final](https://target.scene7.com/is/image/Target/GUEST_7ab95111-7a46-4555-a191-062f9edb5857?wid=325&hei=325&qlt=80&fmt=pjpeg)
+
+![Link](https://sumoyakiniku.com.vn/)
+
+![Link](https://www.qpotsanjose.com/)
+
+## Instructions
+
+There are 9 components in this projects: `<App>`,`<Home>`,`<Menu>`, `<MenuCard>`,`<MenuForm>`,`<Beverages>`,`<BeverageCard>`, `<Contact>`, `<NavBar>`, and 3 additional files `<index.js>`, `<data.js>`, `<index.css>`.
+
+src/
+├── App.js
+├── Home.js
+├── Menu.js
+├── MenuCard.js
+├── MenuForm.js
+├── Beverages.js
+├── BeverageCard.js
+├── Contact.js
+├── NavBar.js
+├── index.js
+├── index.css
+└── data.
+
+* We will start with `App` which is the parent component with other components. I render the `NavBar` and four React Router `Route` components with the following paths:
+
+- `/menu`: should render the `Menu` component
+- `/beverages`: should render the `Beverages` component
+- `/contact`: should render the `Contact` component
+- `/`: should render the `Home` component
+
+* Created a file `db.json`, and posted a collection of 14 objects with 2 attributes and named it "food".
+* Made GET request in `App` and pass the list of food down to `Menu` component as a prop. In `Menu`, we use map method then continue pass the `<foodList>` as props to `MenuCard`, which has the set up to display the food on the website.
+* 
