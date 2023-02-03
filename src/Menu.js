@@ -2,7 +2,7 @@ import React from "react"
 import MenuCard from "./MenuCard";
 
 function Menu({foods, onClickDeleteFood}){
-
+    
     return (
         <div className="fb-collection">
             {foods.map((food) => (
