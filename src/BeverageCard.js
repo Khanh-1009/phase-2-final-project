@@ -4,7 +4,7 @@ import React from 'react'
 function BeverageCard({name, image}) {
 
     function handleClick(){
-        alert("Thanks for your order!")
+        alert("Thanks for your order! It will be delivered to your table shortly!")
     }
     
     return (

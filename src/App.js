@@ -10,7 +10,6 @@ import { drinks } from "./data"
 import './App.css';
 
 function App() {
-  const [drink, setDrink] = useState(drinks)
   const [foods, setFoods] = useState([])
   const [showForm, setShowForm] = useState(false)
 
@@ -37,9 +36,6 @@ function App() {
     <div className="App">
       <NavBar />
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
           <Route path="/Menu">
             <Menu foods={foods} onClickDeleteFood={handleClickDeleteFood}/>
             {showForm ? <MenuForm onFoodFormSubmit={handleFoodSubmit}/> : null}
@@ -48,10 +44,13 @@ function App() {
             </div>
           </Route>
           <Route path="/Beverages">
-            <Beverages drink={drink}/>
+            <Beverages drinks={drinks}/>
           </Route>
           <Route path="/Contact">
             <Contact />
+          </Route>
+          <Route exact path="/">
+            <Home />
           </Route>
         </Switch>
     </div>
