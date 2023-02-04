@@ -12,9 +12,6 @@ import './App.css';
 function App() {
   const [foods, setFoods] = useState([])
   const [showForm, setShowForm] = useState(false)
-  // const returnValueofState = useState("") 
-  // const name = returnValueofState[0]
-  // const setName = returnValueofState[1]
 
   useEffect(() => {
     fetch("http://localhost:3000/food")

@@ -91,4 +91,6 @@ src/
 
 * Created a file `db.json`, and posted a collection of 14 objects with 2 attributes and named it "food".
 * Made GET request in `App` and pass the list of food down to `Menu` component as a prop. In `Menu`, we use map method then continue pass the `<foodList>` as props to `MenuCard`, which has the set up to display the food on the website.
+* If the clients would like to create their own orders, they can make a request for what they like. I created a controlled form in `MenuForm` for the POST request to add new food items in the menu.
+* When the clients don't like the foods on the menu anymore, they can hit the `Not My Favorite`button to delete them. I made the DELETE request in `MenuCard`. I also created an `onClick` event handler for the `Place Order` button.
 * 
