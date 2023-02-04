@@ -93,4 +93,8 @@ src/
 * Made GET request in `App` and pass the list of food down to `Menu` component as a prop. In `Menu`, we use map method then continue pass the `<foodList>` as props to `MenuCard`, which has the set up to display the food on the website.
 * If the clients would like to create their own orders, they can make a request for what they like. I created a controlled form in `MenuForm` for the POST request to add new food items in the menu.
 * When the clients don't like the foods on the menu anymore, they can hit the `Not My Favorite`button to delete them. I made the DELETE request in `MenuCard`. I also created an `onClick` event handler for the `Place Order` button.
-* 
+* For `Beverages`, I created `data.js` file, which contains the array of beverages. I passed the data down as a prop to `Beverages` component, then used map method and continue passed it as a prop to `BeverageCard` as a prop object. The beverage menu will be displayed.
+
+## Conclusion
+
+When I started taking Phase-2 React course, it was really challenging. I kept thinking about how to work with vanilla JS, so I was struggling to get used to the new concept. However, I am getting much better now, and I actually enjoy learning it more. The project is a great chance to apply what I've learned, and I am pretty happy about my work!
