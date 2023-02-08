@@ -19,10 +19,3 @@ function Contact(){
 }
 
 export default Contact;
-
-{/* <div>
-<ul>Mon - Thurs & Sunday</ul>
-<ul>11:00am - 11:00pm</ul>
-<ul>Fri - Sat</ul>
-<ul>11:00am - 11:00pm</ul>
-</div> */}

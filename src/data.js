@@ -22,6 +22,6 @@ export const drinks= [
     {
         name: "Dr Pepper",
         image: "https://target.scene7.com/is/image/Target/GUEST_7ab95111-7a46-4555-a191-062f9edb5857?wid=325&hei=325&qlt=80&fmt=pjpeg"
-    },
+    }
   ];
   
