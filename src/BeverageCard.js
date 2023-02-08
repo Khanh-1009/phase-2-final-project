@@ -2,11 +2,11 @@ import React from 'react'
 
 
 function BeverageCard({name, image}) {
-
+    
     function handleClick(){
         alert("Thanks for your order! It will be delivered to your table shortly!")
     }
-    
+
     return (
         <div className="card">
         <h2>{name}</h2>
