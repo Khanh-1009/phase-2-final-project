@@ -21,3 +21,5 @@ function BeverageCard({name, image}) {
 }
 
 export default BeverageCard;
+
+
