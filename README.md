@@ -80,7 +80,7 @@ src/
 ├── NavBar.js
 ├── index.js
 ├── index.css
-└── data.
+└── data.js
 
 * We will start with `App` which is the parent component with other components. I render the `NavBar` and four React Router `Route` components with the following paths:
 
