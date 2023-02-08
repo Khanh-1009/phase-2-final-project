@@ -34,7 +34,6 @@ function MenuForm({onFoodFormSubmit}){
           setFoodImage("")
         })
     }
-    
     return (
         <div className="container">
           <form className="add-food-form" onSubmit={handleSubmit}>
