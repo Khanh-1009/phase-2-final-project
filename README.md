@@ -16,17 +16,6 @@ The idea of creating a restaurant app came to my mind quite early when I was tak
 
 In order to create this project, I truly appreciate the Sumo BBQ restaurant in Ho Chi Minh city, Vietnam and Q-Pot BBQ & Hot pot restaurant in San Jose, USA. I have understood more about Food & Beverage industry and had good ideas from it. Their websites also provide me beatiful photos, and there are more nice photos that I used for my project, which are from other websites below.
 
-![Screenshot Final](https://static.vecteezy.com/system/resources/thumbnails/003/224/532/small/cute-sumo-mascot-character-cartoon-icon-illustration-free-vector.jpg)
-
-![Screenshot Final](https://media.istockphoto.com/id/1334054372/vector/cute-sumo-eat-onigiri-cartoon-icon-illustration.jpg?s=612x612&w=0&k=20&c=tDrkNSzqhKBspw6226HToqwVCOl96CA8RNuQIEqbXqc=)
-
-![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/3/3/330_Suon_Non_Bo_My_Co_Xuong_Sot_Tare_1_1.jpg)
-
-![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/1/5/15641_Suon_Bo_My_Hao_Hang_Rut_Xuong_1_1.jpg)
-
-![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/8/9/899_Than_Vai_Bo_My_Cat_Lat_Sot_Tare_1_1.jpg)
-
-![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/3/0/306_De_Suon_Bo_My_Tsubo_1_1.jpg)
 
 ![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/8/9/897_Ba_Chi_Bo_My_Sot_Miso_Cay_1_1.jpg)
 
