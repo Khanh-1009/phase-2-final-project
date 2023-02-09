@@ -17,10 +17,6 @@ The idea of creating a restaurant app came to my mind quite early when I was tak
 In order to create this project, I truly appreciate the Sumo BBQ restaurant in Ho Chi Minh city, Vietnam and Q-Pot BBQ & Hot pot restaurant in San Jose, USA. I have understood more about Food & Beverage industry and had good ideas from it. Their websites also provide me beatiful photos, and there are more nice photos that I used for my project, which are from other websites below.
 
 
-![Screenshot Final](https://brand-pcms.ggg.systems/media/catalog/product/cache/fccf9bc1c56510f6f2e84ded9c30a375/9/0/904_Rau_Nam_Tong_Hop_1_1.jpg)
-
-![Screenshot Final](https://target.scene7.com/is/image/Target/GUEST_7819ee30-1f78-46ee-a21c-d2096f99ba42?wid=325&hei=325&qlt=80&fmt=pjpeg)
-
 ![Screenshot Final](https://target.scene7.com/is/image/Target/GUEST_df0ed645-55ba-440c-a765-e702bc9ebb01?wid=488&hei=488&fmt=pjpeg)
 
 ![Screenshot Final](https://target.scene7.com/is/image/Target/GUEST_4f2bf9ec-55c4-4a9e-bf0d-61ebc5c9c110?wid=488&hei=488&fmt=pjpeg)
